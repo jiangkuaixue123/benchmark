@@ -10,16 +10,16 @@ synthetic_reader_cfg = dict(
 
 synthetic_config = {
     "Type":"string",
-    "RequestCount": 10,
+    "RequestCount": 10000,
     "TrustRemoteCode": False,
     "StringConfig" : {
         "Input" : {
             "Method": "uniform",
-            "Params": {"MinValue": 1, "MaxValue": 200}
+            "Params": {"MinValue": 2000, "MaxValue": 2001}
         },
         "Output" : {
-            "Method": "gaussian",
-            "Params": {"Mean": 100, "Var": 200, "MinValue": 1, "MaxValue": 100}
+            "Method": "uniform",
+            "Params": {"MinValue": 1000, "MaxValue": 1001}
         }
     },
 }
