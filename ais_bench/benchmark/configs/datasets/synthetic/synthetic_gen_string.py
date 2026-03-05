@@ -10,7 +10,7 @@ synthetic_reader_cfg = dict(
 
 synthetic_config = {
     "Type":"string",
-    "RequestCount": 10000,
+    "RequestCount": 20000,
     "TrustRemoteCode": False,
     "StringConfig" : {
         "Input" : {
